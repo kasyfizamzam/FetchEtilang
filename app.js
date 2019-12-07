@@ -25,7 +25,7 @@ var options = {
 
 function callback(error, response, body) {
     if (!error && response.statusCode == 200) {
-        console.log(JSON.stringify(body));
+        console.log(JSON.stringify(body, null, 2));
     }
 }
 
